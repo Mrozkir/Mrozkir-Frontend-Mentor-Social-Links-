@@ -1,0 +1,66 @@
+*::before, *, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  background-color: #333;
+  padding: 0.6rem 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1.3rem;
+  font-weight: bold;
+}
+.btn a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 3rem;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  padding: 1.5rem;
+  width: 20rem;
+  height: 32rem;
+  border-radius: 1rem;
+}
+.container-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-header img {
+  border-radius: 10rem;
+  margin-bottom: 0.8rem;
+}
+.container-header-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+.container-header-location {
+  color: hsl(75, 94%, 57%);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.container-header-expertise {
+  font-size: 1rem;
+  color: whitesmoke;
+  margin-bottom: 0.8rem;
+}
+.container-body {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=main.css.map */

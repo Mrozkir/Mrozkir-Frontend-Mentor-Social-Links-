@@ -1,0 +1,42 @@
+body{
+    background-color: $background-color;
+    min-height: 100vh;
+    @include flexCenter;
+    padding: 2rem 3rem;
+}
+
+.container{
+    background-color: $card-color;
+    padding: 1.5rem;
+    width: 20rem;
+    height: 32rem;
+    border-radius: 1rem;
+    &-header{
+        @include flexCenter;
+        & img{
+            border-radius: 10rem;
+            // object-fit: cover;
+            margin-bottom: .8rem;
+        }
+        &-title{
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: $font-color;
+        }
+        &-location{
+            color: $secondary-color;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+        &-expertise{
+            font-size: 1rem;
+            color: $font-color;
+            margin-bottom: .8rem;
+        }
+    }
+    &-body{
+        display: flex;
+        flex-direction: column;
+     }
+}
